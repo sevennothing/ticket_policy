@@ -49,11 +49,11 @@ class ticketPolicy {
 };
 
 ticketPolicy::ticketPolicy(){
-	cout<< "ticketPolicy()"<<endl;
+	//cout<< "ticketPolicy()"<<endl;
 }
 
 ticketPolicy::~ticketPolicy(){
-	cout<< "~ticketPolicy()"<<endl;
+	//cout<< "~ticketPolicy()"<<endl;
 
 }
 

@@ -117,7 +117,7 @@ int ticketPolicy::init_ticket_policy(float *pTickets){
 
 
 int ticketPolicy::run_ernie(){
-    srand((unsigned)time(NULL));
+   // srand((unsigned)time(NULL));
 
     float value = rand() / double(RAND_MAX);
 
