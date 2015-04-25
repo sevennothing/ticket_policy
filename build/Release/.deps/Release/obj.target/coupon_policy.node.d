@@ -1,0 +1,1 @@
+cmd_Release/obj.target/coupon_policy.node := flock ./Release/linker.lock g++ -shared -pthread -rdynamic -m64  -Wl,-soname=coupon_policy.node -o Release/obj.target/coupon_policy.node -Wl,--start-group Release/obj.target/coupon_policy/couponPolicy.o -Wl,--end-group 

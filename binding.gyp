@@ -1,8 +1,8 @@
 {
   "targets": [
     {
-      "target_name": "ticket_policy",
-      "sources": [ "ticketPolicy.cpp" ],
+      "target_name": "coupon_policy",
+      "sources": [ "couponPolicy.cpp" ],
 	  "cflags_cc": ["-fexceptions"]
     }
   ]

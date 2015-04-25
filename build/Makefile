@@ -311,8 +311,8 @@ $(obj).$(TOOLSET)/%.o: $(obj)/%.s FORCE_DO_CMD
 
 ifeq ($(strip $(foreach prefix,$(NO_LOAD),\
     $(findstring $(join ^,$(prefix)),\
-                 $(join ^,ticket_policy.target.mk)))),)
-  include ticket_policy.target.mk
+                 $(join ^,coupon_policy.target.mk)))),)
+  include coupon_policy.target.mk
 endif
 
 quiet_cmd_regen_makefile = ACTION Regenerating $@
