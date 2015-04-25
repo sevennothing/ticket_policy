@@ -1,0 +1,1 @@
+cmd_Release/obj.target/ticket_policy.node := flock ./Release/linker.lock g++ -shared -pthread -rdynamic -m64  -Wl,-soname=ticket_policy.node -o Release/obj.target/ticket_policy.node -Wl,--start-group Release/obj.target/ticket_policy/ticketPolicy.o -Wl,--end-group 
